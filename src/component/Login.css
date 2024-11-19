@@ -1,0 +1,107 @@
+.Login-content{
+	display: flex;
+	justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding:0;
+    margin: 0;
+    background-image: url('Designer-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+.Login-main{
+	width: 500px;
+	height: 700px;
+	margin-top:196px;
+	margin-bottom: 196px;
+	overflow: hidden;
+	border-radius:15px;
+	box-shadow: 10px 20px 30px black;
+	position: relative;
+}
+.Login-main:hover{
+  box-shadow:  25px 50px 75px rgb(251, 1, 1);
+}
+.label-1 b{
+	color:red;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.label-1 b:hover{
+	color: aqua;
+}
+.label-1{
+	font-size: 3em;
+	justify-content: center;
+	display: flex;
+	margin-top: 100px;
+	cursor: pointer;
+	
+}
+ .Login-text{
+	color: black;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Login-text a{
+color: red;
+text-decoration: none;
+}
+.Login-text a:hover{
+color:black;
+}
+input{
+	width: 60%;
+	height: 40px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin:40px auto;
+	padding: 10px;
+	outline: none;
+	border: none;
+	border-radius: 7px;
+}
+input:hover{
+	border: 2px solid black;
+}
+.login-btn-2{
+	width: 60%;
+	height: 50px;
+	margin: auto;
+	justify-content: center;
+	display: block;
+	background:#f02081;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 20px;
+  outline: none;
+  border: none; 
+	border-radius: 7px;
+	cursor: pointer;
+}
+.login-btn-2 a{
+	color: black;
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login-btn-2:hover{
+	background: red;
+}
+@media (max-width:650px) {
+    .Login-main{
+      width: 300px;
+      height: 500px;
+    }
+    .label-1{
+      font-size: 2.5em;
+    }
+    input{
+      width: 60%;
+      height: 22px;
+    }
+    .login-btn-2{
+      width: 60%;
+      height: 40px;
+    }
+  }
